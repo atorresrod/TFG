@@ -6,10 +6,10 @@ Este repositorio contiene la implementación del TFG de **Alejandro Torres Rodr�
 
 Para la realización de este trabajo se han utilizado las siguientes librerías:
 
-1. Numpy
-2. Pytorch
-3. Matplotlib
-4. Gymnasium
+1. [Numpy](https://numpy.org/)
+2. [Pytorch](https://pytorch.org/)
+3. [Matplotlib](https://matplotlib.org/)
+4. [Gymnasium](https://gymnasium.farama.org/)
 
 ## Instalación
 
