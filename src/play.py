@@ -13,7 +13,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("env", type=str, help="The name of the atari environment to play on")
     parser.add_argument("model_path", type=str, help="The path to trained the model")
-    parser.add_argument("dqn_method", type=int, help="Set to 1 to use DQN method, 0 for tabular")
+    parser.add_argument("is_dqn_method", type=int, help="Set to 1 to use DQN method, 0 for tabular")
     parser.add_argument("--num_episodes", type=int, help="The number of episodes to play", default=1)
     parser.add_argument("--epsilon", type=float, help="The epsilon value for epsilon-greedy policy", default=0.00)
     args = parser.parse_args()
