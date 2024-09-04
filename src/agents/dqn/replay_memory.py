@@ -4,7 +4,10 @@ import random
 Transition = namedtuple('Transition',('state', 'action', 'next_state', 'reward', "done"))
 
 class ReplayMemory:
-    """A cyclic buffer of bounded size that holds the transitions observed recently."""
+    """
+    A cyclic buffer of bounded size that holds the transitions observed recently.
+    Obtained from https://pytorch.org/tutorials/intermediate/reinforcement_q_learning.html
+    """
 
     def __init__(self, capacity):
         self.memory = deque([], maxlen=capacity)
